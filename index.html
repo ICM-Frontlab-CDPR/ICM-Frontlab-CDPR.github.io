@@ -61,12 +61,12 @@
   .sources .note { color: var(--muted); font-size: 14px; }
 
   .steps { counter-reset: step; }
-  .steps li {
+  .steps > li {
     display: flex;
     gap: 14px;
     align-items: baseline;
   }
-  .steps li::before {
+  .steps > li::before {
     counter-increment: step;
     content: counter(step);
     flex: none;
@@ -79,6 +79,7 @@
     display: grid;
     place-items: center;
   }
+  .steps .step-note { color: var(--muted); font-size: 14px; margin-top: 4px; }
 
   .caution { color: var(--muted); font-size: 14px; margin-top: 6px; }
 
@@ -103,14 +104,14 @@
 
   <section>
     <p>The ICM handles the <a href="https://institutducerveau.org/equipes-recherche-linstitut-cerveau/frontlab-cortex-prefrontal-au-centre-fonctions-cognitives-superieures-sante-maladie" target="_blank" rel="noopener">global presentation of the institute</a>.</p>
-    <p>Here are the links to the <a href="https://sites.google.com/view/frontlab-icm/" target="_blank" rel="noopener">Frontlab presentation</a>:</p>
-    <p>This document is for CDPR use.</p>
+    <p>Here are the links to the <a href="https://sites.google.com/view/frontlab-icm/" target="_blank" rel="noopener">Frontlab presentation</a>.</p>
+    <p>This document is for CDPR (but could be used for every team).</p>
   </section>
 
   <section>
     <h2>Data sources</h2>
-    <p>At the CDPR-team level, there are 3 main data sources you have to be aware of:</p>
-    <p class="caution">Make sure to have authorization soon.</p>
+    <p>At the lab level, there are 3 main data sources you have to be aware of.</p>
+    <p class="caution">Make sure to request authorization early.</p>
     <ul class="sources">
       <li>
         <div class="name"><a href="https://instituteicm-my.sharepoint.com/:f:/r/personal/hippolyte_dreyfus_icm-institute_org/Documents/ICM_CDPR?csf=1&web=1&e=7VtleU" target="_blank" rel="noopener">Toni's OneDrive</a></div>
@@ -129,13 +130,17 @@
   <section>
     <h2>Things to do first</h2>
     <ul class="steps">
-      <li>Go to the Arrival folder of the OneDrive and read the 4 main documents (arrival, organizations, productivity, and skills).</li>
-      <li>Then go to GitHub and OneDrive to learn both the conceptual and technical material you will need before getting started with your project.</li>
+      <li>Go to the Arrival folder of the OneDrive and read the organization documents.</li>
+      <li>
+        Read the two short guides below before starting:
+        <div class="step-note"><a href="productivity.html">Productivity &amp; Learning</a> &nbsp;·&nbsp; <a href="skills.html">Key Skills</a></div>
+      </li>
+      <li>Then explore GitHub and the OneDrive to learn the conceptual and technical material you will need before getting started with your project.</li>
     </ul>
   </section>
 
   <footer>
-    <strong>Hippolyte Dreyfus</strong>, RI 2026 — feel free to contact for a particular question.<br>
+    <strong>Hippolyte Dreyfus</strong>, RI 2026 — feel free to reach out with any question.<br>
     <a href="mailto:hippolytedreyfus@gmail.com">hippolytedreyfus@gmail.com</a>
   </footer>
 
