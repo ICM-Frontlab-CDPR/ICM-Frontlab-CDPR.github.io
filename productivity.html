@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productivity & Learning — CDPR</title>
+<link rel="icon" type="image/png" href="logo-CDPR.png">
+<style>
+  :root {
+    --ink: #1c2b3a;
+    --blue: #2f7ea8;
+    --paper: #f7f8fa;
+    --line: #dde3ea;
+    --muted: #5a6b7b;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 56px 0 32px;
+    border-bottom: 1px solid var(--line);
+  }
+  header img { flex: none; width: 64px; height: 64px; object-fit: contain; }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: -0.01em; }
+  header .sub { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+
+  .lede { padding: 32px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
+
+  section { padding: 32px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+
+  .num {
+    display: inline-block;
+    color: var(--blue);
+    font-weight: 700;
+    margin-right: 8px;
+  }
+  h2 { margin: 0 0 12px; font-size: 20px; letter-spacing: -0.01em; }
+  h3 { margin: 22px 0 8px; font-size: 16px; color: var(--ink); }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding: 0 0 0 22px; }
+  li { margin: 0 0 8px; }
+  .note { color: var(--muted); font-size: 14px; font-style: italic; }
+
+  a { color: var(--blue); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--blue); }
+  .back { display: inline-block; margin: 8px 0; }
+
+  footer { padding: 32px 0 64px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="logo-CDPR.png" alt="CDPR logo">
+    <div>
+      <h1>Productivity &amp; Learning</h1>
+      <p class="sub">CDPR — Frontlab</p>
+    </div>
+  </header>
+
+  <div class="lede">
+    Being productive, learning, and doing all of it in a good mood and without stress is possible — as long as you follow a few rules and stay aware of a few things.
+  </div>
+
+  <section>
+    <h2><span class="num">1</span>Learn to dissociate</h2>
+    <p>It is hard, but try to stay as conscious as possible of the difference between:</p>
+    <ul>
+      <li>where you can <strong>produce value</strong>, and</li>
+      <li>where you still have to <strong>learn</strong> — the part where it is not reasonable to expect yourself to produce value yet.</li>
+    </ul>
+    <p>This distinction is essential to break down your time and your tasks correctly.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>Take a step back before diving in</h2>
+    <p>Before getting nose-deep in your project, ask yourself these questions about the work in the CDPR team.</p>
+
+    <h3>A. What types of data do you work on?</h3>
+    <p class="note">Datatype schemas — to be added.</p>
+
+    <h3>B. What types of processes do you apply, and what skills do they require?</h3>
+    <p><a href="process-schema.html">Process schema</a> — acquisition, preprocessing, and analysis stages with the associated tools at each step.</p>
+    <p>Keep in mind that, in the end, everything comes down to:</p>
+    <ul>
+      <li>querying data (easy once it is in BIDS and well formatted),</li>
+      <li>processing data,</li>
+      <li>visualizing and summarizing data.</li>
+    </ul>
+
+    <h3>C. If you don't have a skill yourself, how do you get it?</h3>
+    <p>Within the team? Outside the team?</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>Keep perspective</h2>
+    <p>Academia is a highly selective environment. Work with passion — but stay grounded.</p>
+    <ul>
+      <li><strong>No ego.</strong> You are (very) brilliant, that is certain — but you are also certainly not the best.</li>
+    </ul>
+  </section>
+
+  <section>
+    <a href="index.html" class="back">← Back to Welcome</a>
+  </section>
+
+  <footer>CDPR — Frontlab</footer>
+
+</div>
+</body>
+</html>

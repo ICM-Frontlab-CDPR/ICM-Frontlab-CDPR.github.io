@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Key Skills — CDPR</title>
+<link rel="icon" type="image/png" href="logo-CDPR.png">
+<style>
+  :root {
+    --ink: #1c2b3a;
+    --blue: #2f7ea8;
+    --paper: #f7f8fa;
+    --line: #dde3ea;
+    --muted: #5a6b7b;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 56px 0 32px;
+    border-bottom: 1px solid var(--line);
+  }
+  header img { flex: none; width: 64px; height: 64px; object-fit: contain; }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: -0.01em; }
+  header .sub { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+
+  .lede { padding: 32px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
+
+  section { padding: 32px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+
+  .skill { padding: 18px 0; border-top: 1px solid var(--line); }
+  .skill:first-child { border-top: none; }
+  .skill h3 { margin: 0 0 4px; font-size: 17px; }
+  .skill p { margin: 0; color: var(--muted); }
+
+  a { color: var(--blue); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--blue); }
+  .back { display: inline-block; margin: 8px 0; }
+
+  footer { padding: 32px 0 64px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="logo-CDPR.png" alt="CDPR logo">
+    <div>
+      <h1>Key Skills</h1>
+      <p class="sub">CDPR — Frontlab</p>
+    </div>
+  </header>
+
+  <div class="lede">
+    A few core notions that matter most when working with our data and pipelines.
+  </div>
+
+  <section>
+    <div class="skill">
+      <h3>Know your file types — and never mix them</h3>
+      <p>Understand what a raw is, what a derivative is, what a code file is, and what a result file is. Keeping them separate is essential.</p>
+    </div>
+
+    <div class="skill">
+      <h3>Be aware of what produces data</h3>
+      <p>Know which actions generate data. If the result of a computation is heavy, it most likely belongs in the derivatives.</p>
+    </div>
+
+    <div class="skill">
+      <h3>Be aware of what needs computation</h3>
+      <p>Know which actions require significant compute before you run them.</p>
+    </div>
+
+    <div class="skill">
+      <h3>Know where to find resources</h3>
+      <p>Whether inside or outside the team, know where to look for what you need.</p>
+    </div>
+  </section>
+
+  <section>
+    <a href="index.html" class="back">← Back to Welcome</a>
+  </section>
+
+  <footer>CDPR — Frontlab</footer>
+
+</div>
+</body>
+</html>
