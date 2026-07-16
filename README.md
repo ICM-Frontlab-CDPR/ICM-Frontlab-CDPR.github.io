@@ -1,2 +1,2 @@
 # ICM-Frontlab-CDPR.github.io
-Introduction to CDPR team
+Introduction document to CDPR team.
