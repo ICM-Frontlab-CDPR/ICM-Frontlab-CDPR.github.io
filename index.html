@@ -31,7 +31,7 @@
     padding: 56px 0 40px;
     border-bottom: 1px solid var(--line);
   }
-  header svg { flex: none; width: 72px; height: 72px; }
+  header img { flex: none; width: 72px; height: 72px; object-fit: contain; }
   header h1 { margin: 0; font-size: 28px; letter-spacing: -0.01em; }
   header .sub { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
 
@@ -79,6 +79,8 @@
     place-items: center;
   }
 
+  .caution { color: var(--muted); font-size: 14px; margin-top: 6px; }
+
   footer {
     padding: 40px 0 64px;
     color: var(--muted);
@@ -91,21 +93,7 @@
 <div class="wrap">
 
   <header>
-    <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" aria-label="CDPR NIBS mark">
-      <g fill="none" stroke="#2f7ea8" stroke-linecap="round">
-        <path d="M 545 300 A 120 120 0 0 1 545 440" stroke-width="14" opacity="0.30"/>
-        <path d="M 568 265 A 165 165 0 0 1 568 475" stroke-width="14" opacity="0.20"/>
-        <path d="M 590 230 A 210 210 0 0 1 590 510" stroke-width="14" opacity="0.12"/>
-      </g>
-      <path d="M 225 400 C 210 375, 210 345, 228 322 C 220 305, 222 285, 240 272 C 236 255, 246 236, 268 230 C 270 212, 288 198, 310 200 C 320 184, 342 176, 362 184 C 380 172, 405 174, 418 190 C 438 186, 458 196, 462 214 C 480 214, 494 228, 492 246 C 508 250, 518 266, 512 282 C 524 292, 528 310, 518 324 C 528 338, 526 356, 512 366 C 520 382, 514 400, 498 406 C 502 424, 490 438, 472 436 C 470 452, 456 462, 440 458 C 452 472, 448 490, 432 498 C 434 512, 424 524, 408 522 C 406 534, 392 542, 378 536 C 366 548, 346 546, 336 534 C 316 538, 298 526, 296 508 C 278 508, 264 494, 266 476 C 250 472, 240 458, 244 442 C 228 436, 220 420, 225 400 Z"
-        fill="none" stroke="#1c2b3a" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
-      <path d="M 330 250 C 340 280, 336 310, 312 330" fill="none" stroke="#1c2b3a" stroke-width="9" stroke-linecap="round" opacity="0.5"/>
-      <path d="M 390 232 C 400 262, 398 292, 378 314" fill="none" stroke="#1c2b3a" stroke-width="9" stroke-linecap="round" opacity="0.5"/>
-      <path d="M 400 520 C 402 545, 400 566, 392 584" fill="none" stroke="#1c2b3a" stroke-width="16" stroke-linecap="round"/>
-      <circle cx="540" cy="270" r="44" fill="none" stroke="#2f7ea8" stroke-width="16"/>
-      <circle cx="540" cy="270" r="17" fill="#2f7ea8" opacity="0.15"/>
-      <circle cx="480" cy="320" r="9" fill="#2f7ea8"/>
-    </svg>
+    <img src="logo-CDPR.png" alt="CDPR logo">
     <div>
       <h1>Welcome</h1>
       <p class="sub">CDPR — Frontlab</p>
@@ -113,25 +101,26 @@
   </header>
 
   <section>
-    <p>The ICM handles the global presentation of the institute.</p>
-    <p>Here are the links to the Frontlab presentation:</p>
-    <p>This document is for CDPR (could be used for every team).</p>
+    <p>The ICM handles the <a href="https://institutducerveau.org/equipes-recherche-linstitut-cerveau/frontlab-cortex-prefrontal-au-centre-fonctions-cognitives-superieures-sante-maladie" target="_blank" rel="noopener">global presentation of the institute</a>.</p>
+    <p>Here are the links to the <a href="https://sites.google.com/view/frontlab-icm/" target="_blank" rel="noopener">Frontlab presentation</a>:</p>
+    <p>This document is for CDP use.</p>
   </section>
 
   <section>
     <h2>Data sources</h2>
-    <p>At the lab level, there are 3 data sources you have to be aware of:</p>
+    <p>At the CDPR-team level, there are 3 main data sources you have to be aware of:</p>
+    <p class="caution">Make sure to have authorization soon.</p>
     <ul class="sources">
       <li>
-        <div class="name">Toni's OneDrive</div>
+        <div class="name"><a href="https://instituteicm-my.sharepoint.com/:f:/r/personal/hippolyte_dreyfus_icm-institute_org/Documents/ICM_CDPR?csf=1&web=1&e=7VtleU" target="_blank" rel="noopener">Toni's OneDrive</a></div>
         <div class="note">Lab organization and conceptual resources</div>
       </li>
       <li>
-        <div class="name">CDPR GitHub</div>
-        <div class="note">Technical resources and pedagogy</div>
+        <div class="name"><a href="https://github.com/ICM-Frontlab-CDPR" target="_blank" rel="noopener">CDPR GitHub</a></div>
+        <div class="note">Technical resources, code production, technical pedagogy</div>
       </li>
       <li>
-        <div class="name">ISS storage</div>
+        <div class="name">ISS storage (to check with DSI)</div>
       </li>
     </ul>
   </section>
@@ -139,10 +128,7 @@
   <section>
     <h2>Things to do first</h2>
     <ul class="steps">
-      <li>Go to the Arrival folder (organization setup)</li>
-      <li>Admin stuff</li>
-      <li>Productivity</li>
-      <li>Minimal-skills</li>
+      <li>Go to the Arrival folder of the OneDrive and read the 4 main documents (arrival, organizations, productivity, and skills).</li>
       <li>Then go to GitHub and OneDrive to learn both the conceptual and technical material you will need before getting started with your project.</li>
     </ul>
   </section>
