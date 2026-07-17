@@ -1,0 +1,25 @@
+# License
+
+This site (content and code) is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+## Summary
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially (including reuse as onboarding content, training material, or as context/system-prompt material for an assistant)
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit to the CDPR team (Frontlab, ICM), provide a link to this license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the CDPR team endorses you or your use.
+
+No additional restrictions — you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+## Full legal text
+
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+## Attribution example
+
+> Content adapted from "CDPR — Frontlab" (ICM), licensed under CC BY 4.0.
+> https://icm-frontlab-cdpr.github.io/
